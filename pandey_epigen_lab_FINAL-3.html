@@ -1,0 +1,2026 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#F7F5F0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="format-detection" content="telephone=yes">
+<title>Pandey Epigen Lab | Dr. Pramod Pandey | Nutraceutical Consultant India | FSSAI Regulatory Expert</title>
+<meta name="description" content="Pandey Epigen Lab — India's premier nutraceutical consulting lab by Dr. Pramod Pandey (Ph.D. Biochemistry). Supplement formulation, FSSAI licensing, GMP compliance, Ayurvedic product development, private label nutraceuticals, and regulatory consulting.">
+<meta name="keywords" content="nutraceutical consultant India, FSSAI license consultant, health supplement formulation expert, FSSAI regulatory consultant India, supplement startup consultant India, Ayurvedic product development consultant, private label nutraceutical India, GMP compliance consultant, protein powder formulation India, BCAA supplement formulation, nutraceutical B2B India, supplement manufacturing consultant Delhi, FSSAI product approval, nutraceutical regulatory forum India, epigenetic nutrition India, functional food consultant India, dietary supplement consultant India, health food regulatory India, nutraceutical laboratory India, supplement quality control India, FSSAI registration consultant, food supplement license India, nutraceutical business consultant India, clinical supplement formulation, herbal supplement consultant India">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg:         #F7F5F0;
+  --surface:    #FFFFFF;
+  --ink:        #1A1A18;
+  --ink-soft:   #5A5A54;
+  --ink-muted:  #9A9A92;
+  --accent:     #2D6A4F;
+  --accent-lt:  #40916C;
+  --accent-dim: #D8EDE3;
+  --accent-pale:#EDF7F2;
+  --rule:       #E2E0D8;
+  --gold:       #B8860B;
+  --gold-dim:   #F5EDD0;
+  --serif:      'Cormorant Garamond', Georgia, serif;
+  --sans:       'DM Sans', sans-serif;
+  --max:        1140px;
+  --r:          4px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-weight: 300;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── UTILITIES ── */
+.container { max-width: var(--max); margin: 0 auto; padding: 0 32px; }
+.section    { padding: 100px 0; }
+.section-sm { padding: 64px 0; }
+.divider    { height: 1px; background: var(--rule); }
+
+.label {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 14px;
+}
+.headline {
+  font-family: var(--serif);
+  font-size: clamp(2.2rem, 4vw, 3.6rem);
+  font-weight: 400;
+  line-height: 1.12;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+.subhead {
+  font-family: var(--serif);
+  font-size: clamp(1.3rem, 2.2vw, 1.8rem);
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--ink);
+}
+.body-text {
+  font-size: 1rem;
+  color: var(--ink-soft);
+  line-height: 1.85;
+  max-width: 640px;
+}
+.btn {
+  display: inline-block;
+  padding: 13px 32px;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: var(--r);
+  transition: all 0.25s ease;
+  cursor: pointer;
+  border: none;
+}
+.btn-primary  { background: var(--accent); color: #fff; }
+.btn-primary:hover  { background: var(--accent-lt); transform: translateY(-1px); }
+.btn-outline  { background: transparent; color: var(--accent); border: 1.5px solid var(--accent); }
+.btn-outline:hover  { background: var(--accent); color: #fff; transform: translateY(-1px); }
+.btn-dark     { background: var(--ink); color: #fff; }
+.btn-dark:hover     { background: #2d2d2a; transform: translateY(-1px); }
+
+/* ── NAV ── */
+nav {
+  position: fixed; top: 0; left: 0; right: 0;
+  z-index: 200;
+  background: rgba(247,245,240,0.93);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid var(--rule);
+}
+.nav-inner {
+  max-width: var(--max); margin: 0 auto; padding: 0 32px;
+  height: 68px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.nav-logo { display: flex; flex-direction: column; text-decoration: none; }
+.nav-logo-main {
+  font-family: var(--serif); font-size: 1.15rem; font-weight: 500;
+  color: var(--ink); letter-spacing: 0.01em; line-height: 1.1;
+}
+.nav-logo-main span { color: var(--accent); }
+.nav-logo-sub {
+  font-size: 9px; font-weight: 600; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--ink-muted);
+}
+.nav-links { display: flex; gap: 28px; list-style: none; align-items: center; }
+.nav-links a {
+  font-size: 12px; font-weight: 400; letter-spacing: 0.04em;
+  color: var(--ink-soft); text-decoration: none; transition: color 0.2s;
+}
+.nav-links a:hover { color: var(--accent); }
+.nav-cta {
+  font-size: 11px !important; font-weight: 500 !important;
+  color: var(--accent) !important;
+  border: 1.5px solid var(--accent); padding: 7px 18px;
+  border-radius: var(--r); transition: all 0.2s !important;
+}
+.nav-cta:hover { background: var(--accent) !important; color: #fff !important; }
+.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+.hamburger span { display: block; width: 22px; height: 1.5px; background: var(--ink); transition: all 0.3s; }
+
+/* ── HERO ── */
+#hero {
+  padding-top: 148px; padding-bottom: 100px;
+  background: var(--bg); position: relative; overflow: hidden;
+}
+#hero::before {
+  content: '';
+  position: absolute; top: -60px; right: -100px;
+  width: 600px; height: 600px; border-radius: 50%;
+  background: radial-gradient(circle, var(--accent-dim) 0%, transparent 65%);
+  pointer-events: none;
+}
+#hero::after {
+  content: '';
+  position: absolute; bottom: -80px; left: -60px;
+  width: 400px; height: 400px; border-radius: 50%;
+  background: radial-gradient(circle, var(--gold-dim) 0%, transparent 70%);
+  pointer-events: none; opacity: 0.5;
+}
+.hero-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 80px; align-items: center;
+}
+.hero-eyebrow {
+  display: flex; align-items: center; gap: 12px; margin-bottom: 24px;
+}
+.hero-eyebrow-line { width: 36px; height: 1.5px; background: var(--accent); }
+.hero-eyebrow-text {
+  font-size: 11px; font-weight: 600; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--accent);
+}
+.hero-title {
+  font-family: var(--serif);
+  font-size: clamp(2.8rem, 5.5vw, 5rem);
+  font-weight: 400; line-height: 1.05;
+  color: var(--ink); margin-bottom: 24px; letter-spacing: -0.02em;
+}
+.hero-title em   { font-style: italic; color: var(--accent); }
+.hero-title .sub-em { font-style: italic; color: var(--gold); }
+.hero-desc {
+  font-size: 1.02rem; color: var(--ink-soft);
+  line-height: 1.8; margin-bottom: 40px; max-width: 520px;
+}
+.hero-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 16px; }
+.hero-knowur {
+  display: flex; align-items: center; gap: 10px;
+  margin-top: 14px;
+  padding: 12px 18px;
+  background: var(--gold-dim);
+  border: 1px solid rgba(184,134,11,0.25);
+  border-radius: var(--r);
+  text-decoration: none;
+  transition: all 0.2s;
+  max-width: fit-content;
+}
+.hero-knowur:hover { background: var(--gold-dim); border-color: var(--gold); transform: translateY(-1px); }
+.hero-knowur-icon { font-size: 1.1rem; }
+.hero-knowur-text { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); }
+.hero-stats {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 20px; margin-top: 48px; padding-top: 36px;
+  border-top: 1px solid var(--rule);
+}
+.stat-num {
+  font-family: var(--serif); font-size: 2.6rem; font-weight: 400;
+  color: var(--ink); line-height: 1; margin-bottom: 5px;
+}
+.stat-num span { color: var(--accent); }
+.stat-label {
+  font-size: 11px; font-weight: 400; color: var(--ink-muted);
+  letter-spacing: 0.06em; text-transform: uppercase;
+}
+.credential-card {
+  background: var(--surface); border: 1px solid var(--rule);
+  border-radius: 8px; padding: 36px; position: relative;
+}
+.credential-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0;
+  height: 3px; background: linear-gradient(90deg, var(--accent), var(--gold));
+  border-radius: 8px 8px 0 0;
+}
+.profile-identity {
+  display: flex; gap: 18px; align-items: flex-start;
+  margin-bottom: 28px; padding-bottom: 24px; border-bottom: 1px solid var(--rule);
+}
+.profile-avatar {
+  width: 64px; height: 64px; border-radius: 50%;
+  background: var(--accent-dim); display: flex; align-items: center; justify-content: center;
+  font-family: var(--serif); font-size: 1.6rem; font-weight: 500;
+  color: var(--accent); flex-shrink: 0;
+}
+.profile-name { font-family: var(--serif); font-size: 1.4rem; font-weight: 500; color: var(--ink); margin-bottom: 3px; }
+.profile-title-tag { font-size: 11px; color: var(--ink-soft); letter-spacing: 0.03em; line-height: 1.5; }
+.cred-list { list-style: none; display: flex; flex-direction: column; gap: 11px; }
+.cred-list li {
+  display: flex; align-items: flex-start; gap: 10px;
+  font-size: 0.875rem; color: var(--ink-soft);
+}
+.cred-list li::before { content: '—'; color: var(--accent); font-weight: 600; flex-shrink: 0; margin-top: 1px; }
+.badge-row { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--rule); }
+.badge {
+  font-size: 9px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--accent); background: var(--accent-dim); padding: 4px 10px; border-radius: 2px;
+}
+.badge-gold { color: var(--gold); background: var(--gold-dim); }
+
+/* ── TRUST BAR ── */
+.trust-bar { background: var(--ink); padding: 20px 0; overflow: hidden; }
+.trust-scroll {
+  display: flex; gap: 56px;
+  animation: marquee 35s linear infinite; white-space: nowrap;
+}
+.trust-item {
+  font-size: 10px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase;
+  color: rgba(255,255,255,0.45); display: flex; align-items: center; gap: 12px; flex-shrink: 0;
+}
+.trust-dot { width: 3px; height: 3px; background: var(--accent-lt); border-radius: 50%; flex-shrink: 0; }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+/* ── THREE PILLARS ── */
+#pillars { background: var(--surface); }
+.pillars-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 1px; background: var(--rule);
+  border: 1px solid var(--rule); border-radius: 8px; overflow: hidden;
+  margin-top: 56px;
+}
+.pillar-card {
+  background: var(--surface); padding: 44px 36px;
+  transition: background 0.2s; cursor: default;
+}
+.pillar-card:hover { background: var(--bg); }
+.pillar-icon { font-size: 2rem; margin-bottom: 20px; }
+.pillar-title {
+  font-family: var(--serif); font-size: 1.5rem; font-weight: 500;
+  color: var(--ink); margin-bottom: 12px; line-height: 1.25;
+}
+.pillar-desc { font-size: 0.9rem; color: var(--ink-soft); line-height: 1.75; margin-bottom: 20px; }
+.pillar-link {
+  font-size: 11px; font-weight: 600; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--accent); text-decoration: none;
+  transition: gap 0.2s; display: inline-flex; align-items: center; gap: 6px;
+}
+.pillar-link:hover { gap: 10px; }
+
+/* ── ABOUT ── */
+#about .about-grid {
+  display: grid; grid-template-columns: 5fr 7fr;
+  gap: 80px; align-items: start;
+}
+.about-quote {
+  font-family: var(--serif); font-size: clamp(1.4rem, 2.2vw, 1.85rem);
+  font-weight: 400; line-height: 1.45; color: var(--ink); font-style: italic;
+  margin: 28px 0; padding-left: 22px; border-left: 3px solid var(--accent);
+}
+.about-body { font-size: 1rem; color: var(--ink-soft); line-height: 1.85; margin-bottom: 18px; }
+.epigen-callout {
+  background: var(--accent-pale); border: 1px solid var(--accent-dim);
+  border-radius: 6px; padding: 24px 28px; margin: 28px 0;
+}
+.epigen-callout-title {
+  font-family: var(--serif); font-size: 1.1rem; font-weight: 500;
+  color: var(--accent); margin-bottom: 8px;
+}
+.epigen-callout-text { font-size: 0.9rem; color: var(--ink-soft); line-height: 1.7; }
+.edu-block { margin-top: 36px; padding-top: 28px; border-top: 1px solid var(--rule); }
+.edu-item {
+  display: flex; gap: 18px; padding: 16px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.edu-year { font-size: 11px; font-weight: 600; color: var(--accent); letter-spacing: 0.08em; min-width: 48px; padding-top: 2px; }
+.edu-detail-title { font-size: 0.9rem; font-weight: 500; color: var(--ink); margin-bottom: 2px; }
+.edu-detail-inst  { font-size: 0.82rem; color: var(--ink-muted); }
+
+/* ── SERVICES ── */
+#services { background: var(--bg); }
+.services-intro {
+  display: grid; grid-template-columns: 1fr 2fr;
+  gap: 60px; align-items: end; margin-bottom: 56px;
+}
+.services-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 1px; background: var(--rule);
+  border: 1px solid var(--rule); border-radius: 6px; overflow: hidden;
+}
+.service-card {
+  background: var(--surface); padding: 32px 28px;
+  transition: background 0.2s; position: relative;
+}
+.service-card:hover { background: var(--accent-pale); }
+.service-number {
+  font-family: var(--serif); font-size: 2.8rem; font-weight: 300;
+  color: var(--rule); line-height: 1; margin-bottom: 16px; letter-spacing: -0.03em;
+}
+.service-title { font-family: var(--serif); font-size: 1.1rem; font-weight: 500; color: var(--ink); margin-bottom: 10px; line-height: 1.3; }
+.service-desc { font-size: 0.85rem; color: var(--ink-soft); line-height: 1.7; }
+.service-tag { display: inline-block; margin-top: 16px; font-size: 9px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
+
+/* ── REGULATORY SECTION ── */
+#regulatory { background: var(--surface); }
+.reg-grid {
+  display: grid; grid-template-columns: 5fr 7fr;
+  gap: 80px; align-items: start;
+}
+.reg-intro { max-width: 440px; }
+.reg-intro .headline { margin-bottom: 20px; }
+.reg-intro .body-text { margin-bottom: 32px; }
+.forum-cta {
+  background: var(--accent-dim); border: 1px solid rgba(45,106,79,0.2);
+  border-radius: 6px; padding: 24px 28px; margin-top: 28px;
+}
+.forum-cta-title { font-family: var(--serif); font-size: 1.2rem; font-weight: 500; color: var(--ink); margin-bottom: 8px; }
+.forum-cta-text  { font-size: 0.875rem; color: var(--ink-soft); margin-bottom: 16px; }
+.reg-cards {
+  display: flex; flex-direction: column; gap: 16px;
+}
+.reg-card {
+  background: var(--bg); border: 1px solid var(--rule);
+  border-radius: 6px; padding: 24px 28px;
+  display: flex; gap: 18px; align-items: flex-start;
+  transition: border-color 0.2s, background 0.2s;
+}
+.reg-card:hover { border-color: var(--accent); background: var(--accent-pale); }
+.reg-card-icon {
+  width: 40px; height: 40px; background: var(--accent-dim);
+  border-radius: var(--r); display: flex; align-items: center; justify-content: center;
+  font-size: 1.1rem; flex-shrink: 0;
+}
+.reg-card-title { font-size: 0.95rem; font-weight: 600; color: var(--ink); margin-bottom: 4px; }
+.reg-card-desc  { font-size: 0.845rem; color: var(--ink-soft); line-height: 1.6; }
+.reg-faq {
+  margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--rule);
+}
+.faq-item {
+  border-bottom: 1px solid var(--rule); padding: 18px 0; cursor: pointer;
+}
+.faq-q {
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 0.95rem; font-weight: 500; color: var(--ink);
+}
+.faq-q .faq-icon {
+  font-size: 1.2rem;
+  color: var(--accent);
+  transition: transform 0.3s;
+  flex-shrink: 0;
+  margin-left: 12px;
+}
+.faq-a {
+  font-size: 0.875rem; color: var(--ink-soft); line-height: 1.7;
+  max-height: 0; overflow: hidden; transition: max-height 0.4s ease, padding 0.3s;
+  padding-top: 0;
+}
+.faq-item.open .faq-a { max-height: 420px; padding-top: 12px; }
+.faq-item.open .faq-q .faq-icon { transform: rotate(45deg); }
+
+/* ── EXPERTISE ── */
+#expertise { background: var(--bg); }
+#expertise .exp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+.exp-list { list-style: none; display: flex; flex-direction: column; }
+.exp-list li {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 0; border-bottom: 1px solid var(--rule);
+  font-size: 0.92rem; color: var(--ink-soft); transition: color 0.2s;
+}
+.exp-list li:hover { color: var(--accent); }
+.exp-list li::after { content: '→'; color: var(--accent); opacity: 0; transition: opacity 0.2s; font-size: 0.85rem; }
+.exp-list li:hover::after { opacity: 1; }
+.exp-right { display: flex; flex-direction: column; gap: 18px; }
+.highlight-box { background: var(--accent); color: #fff; border-radius: 6px; padding: 32px; }
+.highlight-box .hl-num { font-family: var(--serif); font-size: 3.2rem; font-weight: 300; line-height: 1; margin-bottom: 8px; }
+.highlight-box .hl-label { font-size: 12px; font-weight: 400; opacity: 0.8; line-height: 1.5; }
+.instruments-box { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 26px 30px; }
+.instruments-box .ib-title { font-size: 10px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-muted); margin-bottom: 14px; }
+.instrument-tags { display: flex; flex-wrap: wrap; gap: 7px; }
+.instrument-tag { font-size: 10px; font-weight: 500; color: var(--ink-soft); background: var(--bg); border: 1px solid var(--rule); padding: 4px 11px; border-radius: 2px; }
+
+/* ── B2B ── */
+#b2b { background: var(--ink); }
+.b2b-grid { display: grid; grid-template-columns: 5fr 7fr; gap: 80px; align-items: center; }
+.b2b-body { font-size: 1rem; color: rgba(255,255,255,0.58); line-height: 1.85; margin: 22px 0 32px; max-width: 460px; }
+.b2b-right { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.b2b-card {
+  background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 6px; padding: 24px 20px; transition: background 0.2s;
+}
+.b2b-card:hover { background: rgba(255,255,255,0.09); border-color: rgba(255,255,255,0.15); }
+.b2b-card-icon { font-size: 1.5rem; margin-bottom: 14px; }
+.b2b-card-title { font-size: 0.92rem; font-weight: 500; color: #fff; margin-bottom: 7px; }
+.b2b-card-desc  { font-size: 0.8rem; color: rgba(255,255,255,0.42); line-height: 1.6; }
+
+/* ── KNOWLEDGE HUB ── */
+#insights { background: var(--bg); }
+.kus-header-bar {
+  background: var(--ink); border-radius: 8px; padding: 28px 36px;
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 48px; gap: 20px; flex-wrap: wrap;
+}
+.kus-brand {
+  display: flex; align-items: center; gap: 16px;
+}
+.kus-logo {
+  width: 52px; height: 52px; background: var(--accent); border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--serif); font-size: 1.1rem; font-weight: 500; color: #fff;
+}
+.kus-name { font-family: var(--serif); font-size: 1.8rem; font-weight: 400; color: #fff; }
+.kus-name span { color: var(--accent-lt); }
+.kus-tagline { font-size: 11px; color: rgba(255,255,255,0.45); letter-spacing: 0.06em; }
+.kus-domain { font-size: 10px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent-lt); background: rgba(64,145,108,0.15); padding: 6px 14px; border-radius: 20px; }
+
+.blog-topics { display: flex; flex-wrap: wrap; gap: 9px; margin-bottom: 32px; }
+.topic-pill {
+  font-size: 11px; font-weight: 500; color: var(--ink-soft);
+  background: var(--surface); border: 1px solid var(--rule);
+  padding: 7px 16px; border-radius: 40px; cursor: pointer; transition: all 0.2s; text-decoration: none;
+}
+.topic-pill:hover, .topic-pill.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+.blog-grid {
+  display: grid; grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 20px; margin-bottom: 36px;
+}
+.blog-card {
+  background: var(--surface); border: 1px solid var(--rule);
+  border-radius: 6px; overflow: hidden;
+  transition: transform 0.25s, box-shadow 0.25s; text-decoration: none; display: block;
+}
+.blog-card:hover { transform: translateY(-3px); box-shadow: 0 12px 36px rgba(0,0,0,0.07); }
+.blog-thumb {
+  height: 170px; display: flex; align-items: center; justify-content: center;
+}
+.blog-card:first-child .blog-thumb { height: 220px; }
+.blog-thumb-icon { font-size: 2.8rem; opacity: 0.45; }
+.blog-card-body { padding: 22px; }
+.blog-cat { font-size: 9px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 9px; display: block; }
+.blog-card-title { font-family: var(--serif); font-size: 1.1rem; font-weight: 500; color: var(--ink); line-height: 1.35; margin-bottom: 10px; }
+.blog-card:first-child .blog-card-title { font-size: 1.35rem; }
+.blog-excerpt { font-size: 0.83rem; color: var(--ink-soft); line-height: 1.65; margin-bottom: 14px; }
+.blog-meta { font-size: 10px; color: var(--ink-muted); display: flex; gap: 10px; }
+
+/* 50 topics grid */
+.topics-table {
+  margin-top: 48px; padding-top: 40px; border-top: 1px solid var(--rule);
+}
+.topics-cols {
+  display: grid; grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid var(--rule); border-radius: 6px; overflow: hidden;
+}
+.topics-col-head {
+  background: var(--ink); color: #fff; padding: 13px 18px;
+  font-size: 10px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+}
+.topics-col-head.reg { background: var(--accent); }
+.topics-col-head.biz { background: #3a3a36; }
+.topic-row {
+  padding: 14px 18px; border-bottom: 1px solid var(--rule);
+  font-size: 0.845rem; color: var(--ink-soft); border-right: 1px solid var(--rule);
+  transition: background 0.15s; cursor: default;
+}
+.topic-row:hover { background: var(--accent-pale); color: var(--accent); }
+.topic-row.no-border-right { border-right: none; }
+.topic-row.last { border-bottom: none; }
+
+/* ── FORUM TEASER ── */
+#forum { background: var(--surface); }
+.forum-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+.forum-threads { display: flex; flex-direction: column; gap: 1px; background: var(--rule); border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+.forum-thread {
+  background: var(--surface); padding: 20px 24px;
+  display: flex; gap: 16px; align-items: flex-start;
+  transition: background 0.2s; cursor: pointer;
+}
+.forum-thread:hover { background: var(--accent-pale); }
+.forum-thread-cat {
+  font-size: 9px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+  color: #fff; background: var(--accent); padding: 3px 8px; border-radius: 2px;
+  flex-shrink: 0; margin-top: 3px;
+}
+.forum-thread-cat.reg { background: var(--gold); }
+.forum-thread-cat.sci { background: var(--ink); }
+.forum-thread-q { font-size: 0.92rem; font-weight: 500; color: var(--ink); margin-bottom: 3px; line-height: 1.35; }
+.forum-thread-meta { font-size: 10px; color: var(--ink-muted); }
+.forum-right { }
+.forum-cta-big {
+  background: var(--accent); color: #fff; border-radius: 8px; padding: 36px;
+  margin-bottom: 20px;
+}
+.forum-cta-big .fct-title { font-family: var(--serif); font-size: 1.8rem; font-weight: 400; margin-bottom: 12px; line-height: 1.2; }
+.forum-cta-big .fct-text  { font-size: 0.9rem; opacity: 0.8; line-height: 1.7; margin-bottom: 24px; }
+.forum-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+.forum-tag {
+  font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--ink-soft); background: var(--bg); border: 1px solid var(--rule);
+  padding: 5px 12px; border-radius: 2px;
+}
+
+/* ── PROCESS ── */
+#process { background: var(--bg); }
+.process-steps {
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  gap: 0; margin-top: 52px; position: relative;
+}
+.process-steps::before {
+  content: ''; position: absolute; top: 27px; left: 10%; right: 10%;
+  height: 1px; background: var(--rule);
+}
+.process-step { text-align: center; padding: 0 14px; }
+.step-circle {
+  width: 54px; height: 54px; background: var(--bg); border: 2px solid var(--rule);
+  border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  font-family: var(--serif); font-size: 1rem; font-weight: 500; color: var(--ink-soft);
+  margin: 0 auto 18px; position: relative; z-index: 1; transition: all 0.25s;
+}
+.process-step:hover .step-circle { background: var(--accent); border-color: var(--accent); color: #fff; }
+.step-title  { font-size: 0.82rem; font-weight: 600; color: var(--ink); margin-bottom: 7px; }
+.step-desc   { font-size: 0.78rem; color: var(--ink-muted); line-height: 1.6; }
+
+/* ── TESTIMONIALS ── */
+#testimonials { background: var(--surface); }
+.testi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 48px; }
+.testi-card { background: var(--bg); border: 1px solid var(--rule); border-radius: 6px; padding: 32px; }
+.testi-stars { color: var(--accent); font-size: 13px; letter-spacing: 2px; margin-bottom: 18px; }
+.testi-quote { font-family: var(--serif); font-size: 1.02rem; font-weight: 400; color: var(--ink); line-height: 1.6; margin-bottom: 22px; font-style: italic; }
+.testi-author { font-size: 11px; font-weight: 600; color: var(--ink-soft); letter-spacing: 0.06em; text-transform: uppercase; }
+.testi-role   { font-size: 10px; color: var(--ink-muted); margin-top: 3px; }
+
+/* ── CONTACT ── */
+#contact { background: var(--bg); }
+.contact-grid { display: grid; grid-template-columns: 5fr 7fr; gap: 80px; align-items: start; }
+.contact-info { display: flex; flex-direction: column; gap: 24px; margin-top: 32px; }
+.contact-item { display: flex; gap: 14px; align-items: flex-start; }
+.contact-icon {
+  width: 38px; height: 38px; background: var(--accent-dim);
+  border-radius: var(--r); display: flex; align-items: center; justify-content: center;
+  font-size: 0.95rem; flex-shrink: 0;
+}
+.contact-label { font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-muted); margin-bottom: 3px; }
+.contact-value { font-size: 0.92rem; color: var(--ink); }
+.contact-value a { color: var(--accent); text-decoration: none; }
+.contact-form { display: flex; flex-direction: column; gap: 18px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.form-group { display: flex; flex-direction: column; gap: 5px; }
+.form-group label { font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-soft); }
+.form-group input,
+.form-group select,
+.form-group textarea {
+  background: var(--surface); border: 1px solid var(--rule);
+  border-radius: var(--r); padding: 13px 15px;
+  font-family: var(--sans); font-size: 0.88rem; color: var(--ink);
+  outline: none; transition: border-color 0.2s; resize: vertical;
+}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus { border-color: var(--accent); }
+.form-group textarea { min-height: 110px; }
+
+/* ── FOOTER ── */
+footer { background: var(--ink); color: rgba(255,255,255,0.55); padding: 56px 0 28px; }
+.footer-top {
+  display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 56px; padding-bottom: 44px;
+  border-bottom: 1px solid rgba(255,255,255,0.07); margin-bottom: 28px;
+}
+.footer-brand { font-family: var(--serif); font-size: 1.3rem; font-weight: 400; color: #fff; margin-bottom: 6px; }
+.footer-brand span { color: var(--accent-lt); }
+.footer-sub { font-size: 9px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.3); margin-bottom: 14px; }
+.footer-tagline { font-size: 0.83rem; color: rgba(255,255,255,0.38); line-height: 1.7; max-width: 270px; }
+.footer-col-title { font-size: 9px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.28); margin-bottom: 18px; }
+.footer-links { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+.footer-links a { font-size: 0.85rem; color: rgba(255,255,255,0.48); text-decoration: none; transition: color 0.2s; }
+.footer-links a:hover { color: rgba(255,255,255,0.88); }
+.footer-knowur {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(64,145,108,0.12); border: 1px solid rgba(64,145,108,0.25);
+  border-radius: 4px; padding: 8px 14px; margin-top: 14px; text-decoration: none;
+}
+.footer-knowur span { font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent-lt); }
+.footer-bottom {
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 11px; color: rgba(255,255,255,0.22); flex-wrap: wrap; gap: 10px;
+}
+
+/* ══════════════════════════════════════════════════════
+   RESPONSIVE SYSTEM — 5 BREAKPOINTS
+   1280px+  → Large laptop / desktop
+   1024px   → Small laptop / iPad landscape
+   768px    → Tablet portrait / large phone landscape
+   480px    → Mobile (Android + iPhone standard)
+   360px    → Small Android (Samsung Galaxy S series)
+   ══════════════════════════════════════════════════════ */
+
+/* ── BASE: iOS & Android global fixes ── */
+* {
+  -webkit-tap-highlight-color: transparent;  /* remove blue flash on tap (Android) */
+  -webkit-touch-callout: none;               /* disable long-press popup on iOS */
+}
+input, select, textarea, button {
+  -webkit-appearance: none;                  /* fix iOS form styling */
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 4px;                        /* iOS rounds inputs aggressively */
+}
+select { background-image: none; }          /* remove iOS select arrow */
+body {
+  -webkit-text-size-adjust: 100%;           /* prevent iOS auto font scaling */
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  overflow-x: hidden;                        /* prevent horizontal scroll on mobile */
+}
+img { max-width: 100%; height: auto; display: block; }
+
+/* ── BREAKPOINT 1: Small laptop / iPad landscape (max 1024px) ── */
+@media (max-width: 1024px) {
+  :root { --max: 960px; }
+  .container { padding: 0 28px; }
+  .section { padding: 80px 0; }
+
+  .hero-title { font-size: 3.8rem; }
+  .hero-grid  { gap: 48px; }
+
+  .services-grid { grid-template-columns: repeat(2, 1fr); }
+  .testi-grid    { grid-template-columns: repeat(2, 1fr); }
+  .footer-top    { grid-template-columns: 2fr 1fr 1fr; gap: 36px; }
+
+  .process-steps { grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .process-steps::before { left: 16%; right: 16%; }
+}
+
+/* ── BREAKPOINT 2: Tablet portrait / phone landscape (max 768px) ── */
+@media (max-width: 768px) {
+  .container { padding: 0 24px; }
+  .section    { padding: 64px 0; }
+  .section-sm { padding: 48px 0; }
+
+  /* Nav */
+  .nav-links  { display: none; }
+  .hamburger  { display: flex; }
+  .nav-inner  { height: 60px; }
+  #mobile-menu { top: 60px; }
+
+  /* Hero */
+  .hero-grid  {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .hero-title { font-size: clamp(2.6rem, 8vw, 3.4rem); }
+  .hero-desc  { font-size: 0.97rem; max-width: 100%; }
+  .hero-stats { grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 32px; padding-top: 28px; }
+  .hero-right { order: -1; } /* show credential card ABOVE text on tablet */
+  .credential-card { padding: 28px; }
+
+  /* All two-col grids → single col */
+  .hero-grid, #about .about-grid, .services-intro,
+  .b2b-grid, .contact-grid, #expertise .exp-grid,
+  .forum-grid, .reg-grid { grid-template-columns: 1fr; gap: 32px; }
+
+  /* Three-col grids → two col */
+  .pillars-grid  { grid-template-columns: repeat(2, 1fr); }
+  .services-grid { grid-template-columns: repeat(2, 1fr); }
+  .testi-grid    { grid-template-columns: 1fr; }
+  .blog-grid     { grid-template-columns: 1fr; }
+  .b2b-right     { grid-template-columns: repeat(2, 1fr); }
+
+  .process-steps { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+  .process-steps::before { display: none; }
+
+  .footer-top    { grid-template-columns: 1fr 1fr; gap: 28px; }
+  .topics-cols   { grid-template-columns: 1fr; }
+  .form-row      { grid-template-columns: 1fr; }
+
+  /* Knowledge bar */
+  .kus-header-bar { flex-direction: column; align-items: flex-start; gap: 16px; padding: 24px; }
+
+  /* Forum threads */
+  .forum-cta-big { padding: 28px 24px; }
+
+  /* Blog topics pills — horizontal scroll on tablet */
+  .blog-topics { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 8px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .blog-topics::-webkit-scrollbar { display: none; }
+  .topic-pill  { flex-shrink: 0; }
+}
+
+/* ── BREAKPOINT 3: Mobile — Android + iPhone (max 480px) ── */
+@media (max-width: 480px) {
+  html { font-size: 15px; }
+  .container  { padding: 0 18px; }
+  .section    { padding: 52px 0; }
+  .section-sm { padding: 40px 0; }
+
+  /* Nav — tighter on small phones */
+  .nav-inner  { height: 56px; padding: 0 18px; }
+  #mobile-menu { top: 56px; padding: 16px 18px; }
+  .nav-logo-main { font-size: 1rem; }
+  .nav-logo-sub  { display: none; } /* hide sub-label on small phones */
+
+  /* Hero */
+  .hero-title { font-size: clamp(2.2rem, 9.5vw, 2.8rem); line-height: 1.08; }
+  .hero-desc  { font-size: 0.93rem; margin-bottom: 28px; }
+  .hero-actions { gap: 10px; }
+  .hero-actions .btn { padding: 12px 22px; font-size: 11px; width: 100%; text-align: center; }
+  .hero-knowur { width: 100%; justify-content: center; }
+  .hero-stats  { grid-template-columns: 1fr 1fr; gap: 14px; }
+  .stat-num    { font-size: 2.2rem; }
+
+  /* Credential card */
+  .credential-card { padding: 22px 18px; }
+  .profile-identity { gap: 14px; }
+  .profile-avatar   { width: 52px; height: 52px; font-size: 1.3rem; }
+  .profile-name     { font-size: 1.2rem; }
+  .profile-title-tag { font-size: 10px; }
+  .cred-list li     { font-size: 0.82rem; }
+  .badge-row        { gap: 5px; margin-top: 18px; }
+  .badge            { font-size: 8px; padding: 3px 8px; }
+
+  /* About */
+  .about-quote { font-size: 1.25rem; padding-left: 16px; }
+  .epigen-callout { padding: 18px 20px; }
+
+  /* Pillars — single col on small mobile */
+  .pillars-grid  { grid-template-columns: 1fr; }
+  .pillar-card   { padding: 30px 24px; }
+
+  /* Services */
+  .services-grid { grid-template-columns: 1fr; }
+  .service-card  { padding: 24px 20px; }
+  .service-number { font-size: 2rem; }
+
+  /* Regulatory */
+  .reg-card  { padding: 18px 20px; }
+  .forum-cta { padding: 18px 20px; }
+
+  /* Expertise */
+  .exp-list li { font-size: 0.875rem; padding: 13px 0; }
+  .highlight-box { padding: 24px; }
+  .highlight-box .hl-num { font-size: 2.6rem; }
+
+  /* B2B */
+  .b2b-right { grid-template-columns: 1fr; }
+  .b2b-card  { padding: 20px 18px; }
+
+  /* Blog */
+  .blog-card-body  { padding: 18px; }
+  .blog-card-title { font-size: 1.05rem !important; }
+  .blog-thumb      { height: 150px !important; }
+
+  /* Forum */
+  .forum-threads { border-radius: 4px; }
+  .forum-thread  { padding: 16px 18px; flex-wrap: wrap; }
+  .forum-thread-cat { font-size: 8px; }
+  .forum-cta-big { padding: 22px 18px; }
+  .forum-cta-big .fct-title { font-size: 1.4rem; }
+
+  /* Process */
+  .process-steps { grid-template-columns: 1fr; gap: 20px; }
+  .process-step  { text-align: left; display: flex; gap: 16px; align-items: flex-start; }
+  .step-circle   { flex-shrink: 0; width: 44px; height: 44px; font-size: 0.9rem; margin: 0; }
+  .step-title    { margin-bottom: 4px; }
+
+  /* Testimonials */
+  .testi-card  { padding: 24px 20px; }
+  .testi-quote { font-size: 0.97rem; }
+
+  /* Contact */
+  .contact-form .btn { width: 100%; padding: 16px; }
+
+  /* Footer */
+  .footer-top    { grid-template-columns: 1fr; gap: 28px; }
+  .footer-bottom { flex-direction: column; gap: 8px; text-align: center; font-size: 10px; }
+
+  /* Topics table */
+  .topic-row { padding: 12px 14px; font-size: 0.82rem; }
+  .topics-col-head { padding: 11px 14px; font-size: 9px; }
+
+  /* Headline sizes */
+  .headline { font-size: clamp(1.8rem, 7.5vw, 2.6rem); }
+  .subhead  { font-size: clamp(1.2rem, 5vw, 1.5rem); }
+}
+
+/* ── BREAKPOINT 4: Small Android phones — 360px (Samsung Galaxy S, Redmi) ── */
+@media (max-width: 380px) {
+  html { font-size: 14px; }
+  .container  { padding: 0 14px; }
+
+  .hero-title { font-size: 2rem; }
+  .hero-actions .btn { font-size: 10.5px; padding: 11px 18px; }
+
+  .nav-logo-main { font-size: 0.92rem; }
+  .stat-num      { font-size: 2rem; }
+
+  .credential-card { padding: 18px 14px; }
+  .profile-avatar  { width: 46px; height: 46px; font-size: 1.1rem; }
+
+  .kus-name { font-size: 1.4rem; }
+  .kus-logo { width: 42px; height: 42px; font-size: 0.95rem; }
+
+  .pillar-card   { padding: 24px 18px; }
+  .service-card  { padding: 20px 16px; }
+  .testi-card    { padding: 20px 16px; }
+  .b2b-card      { padding: 16px 14px; }
+}
+
+/* ── iOS SAFARI SPECIFIC FIXES ── */
+@supports (-webkit-touch-callout: none) {
+  /* Fix iOS momentum scrolling */
+  body { -webkit-overflow-scrolling: touch; }
+
+  /* Fix iOS input zoom — font-size must be 16px or iOS zooms in */
+  .form-group input,
+  .form-group select,
+  .form-group textarea { font-size: 16px !important; }
+
+  /* Fix iOS sticky nav blur */
+  nav { -webkit-backdrop-filter: blur(18px); }
+
+  /* Fix iOS bottom safe area (iPhone X and newer notch phones) */
+  footer { padding-bottom: max(28px, env(safe-area-inset-bottom)); }
+  nav    { padding-top: env(safe-area-inset-top); }
+}
+
+/* ── ANDROID CHROME SPECIFIC FIXES ── */
+@media screen and (max-width: 480px) {
+  /* Android Chrome address bar height fix */
+  #hero { min-height: calc(100svh - 60px); padding-bottom: 60px; }
+
+  /* Fix Android font rendering */
+  body { text-rendering: optimizeSpeed; }
+
+  /* Ensure tap targets are 48px minimum (Google requirement) */
+  .btn, .nav-cta, .topic-pill, .footer-links a,
+  #mobile-menu a, .faq-q, .forum-thread { min-height: 48px; }
+  .btn { display: flex; align-items: center; justify-content: center; }
+
+  /* Fix Android select arrow */
+  select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%235A5A54' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    padding-right: 36px;
+  }
+}
+
+/* ── LARGE SCREENS: 1400px+ ── */
+@media (min-width: 1400px) {
+  :root { --max: 1240px; }
+  .hero-title { font-size: 5.2rem; }
+}
+
+/* ── ANIMATIONS (reduced motion for accessibility) ── */
+.reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.6s ease, transform 0.6s ease; }
+.reveal.visible { opacity: 1; transform: none; }
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .trust-scroll { animation: none; }
+  * { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
+
+/* ── MOBILE MENU ── */
+#mobile-menu {
+  display: none; position: fixed; top: 68px; left: 0; right: 0;
+  background: var(--bg); border-bottom: 1px solid var(--rule);
+  padding: 20px 28px; z-index: 99; flex-direction: column; gap: 0;
+  max-height: calc(100vh - 68px);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+#mobile-menu.open { display: flex; }
+#mobile-menu a {
+  font-size: 15px; font-weight: 400; color: var(--ink-soft); text-decoration: none;
+  padding: 14px 0; border-bottom: 1px solid var(--rule);
+  min-height: 48px; display: flex; align-items: center;
+  transition: color 0.2s;
+}
+#mobile-menu a:last-child { border-bottom: none; }
+#mobile-menu a:hover, #mobile-menu a:active { color: var(--accent); }
+
+/* ── EPIGEN TAG ── */
+.epigen-tag {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--gold-dim); border: 1px solid rgba(184,134,11,0.3);
+  border-radius: 3px; padding: 4px 10px; margin-left: 8px; vertical-align: middle;
+}
+.epigen-tag span { font-size: 9px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">
+      <span class="nav-logo-main">Epigene Lab <span>by Dr. Pandey</span></span>
+      <span class="nav-logo-sub">Dr. Pramod Pandey · Nutraceutical Consultant</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#regulatory">Regulatory</a></li>
+      <li><a href="#forum">Forum</a></li>
+      <li><a href="#insights">Knowledge Base</a></li>
+      <li><a href="#contact" class="nav-cta">Consult Now</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div id="mobile-menu">
+  <a href="#about"      onclick="toggleMenu()">About</a>
+  <a href="#services"   onclick="toggleMenu()">Services</a>
+  <a href="#regulatory" onclick="toggleMenu()">Regulatory</a>
+  <a href="#forum"      onclick="toggleMenu()">Forum</a>
+  <a href="#insights"   onclick="toggleMenu()">Knowledge Base</a>
+  <a href="#contact"    onclick="toggleMenu()">Consult Now</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-eyebrow">
+          <div class="hero-eyebrow-line"></div>
+          <span class="hero-eyebrow-text">Nutraceutical Science · Regulatory Consulting · India</span>
+        </div>
+        <h1 class="hero-title">
+          Science-Backed<br>
+          <em>Nutraceutical</em><br>
+          Solutions
+        </h1>
+        <p class="hero-desc">
+          India's independent nutraceutical lab and regulatory consultancy. Ph.D. Biochemist with 10+ years across supplement formulation, FSSAI compliance, Ayurvedic product development, GMP manufacturing, and science-backed health solutions for B2B brands worldwide.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact"   class="btn btn-primary">Start a Project</a>
+          <a href="#regulatory" class="btn btn-outline">FSSAI Queries</a>
+          <a href="#services"  class="btn btn-dark">View Services</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="stat-num">10<span>+</span></div>
+            <div class="stat-label">Years Research Experience</div>
+          </div>
+          <div>
+            <div class="stat-num">100<span>%</span></div>
+            <div class="stat-label">Regulatory Approval Rate</div>
+          </div>
+          <div>
+            <div class="stat-num">18<span>mo</span></div>
+            <div class="stat-label">Shelf-Life Extended</div>
+          </div>
+          <div>
+            <div class="stat-num">12<span>%</span></div>
+            <div class="stat-label">Production Cost Reduced</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal">
+                <div class="credential-card">
+          <div class="profile-identity">
+            <div class="profile-avatar">PP</div>
+            <div>
+              <div class="profile-name">Dr. Pramod Pandey</div>
+              <div class="profile-title-tag">Ph.D. Biochemistry · Post-Doc CAS China<br>Scientific Officer & Plant Head · Nutraceutical Consultant</div>
+            </div>
+          </div>
+          <ul class="cred-list">
+            <li>Ph.D. Biochemistry — Kumaun University, Nainital, India</li>
+            <li>Post-Doctoral Research — Dalian Institute of Chemical Physics, Chinese Academy of Sciences, China</li>
+            <li>Biosensor R&D for early Alzheimer's detection</li>
+            <li>Young Scientist Award — Uttarakhand State Science Congress 2013</li>
+            <li>Designed nutraceuticals for Indian Defence sector — FSSAI + GMP compliant</li>
+            <li>FSSAI · GMP · HACCP · FDA registration expertise</li>
+            <li>Protein powder, BCAA, Ayurvedic, clinical-grade supplement formulation</li>
+          </ul>
+          <div class="badge-row">
+            <span class="badge">FSSAI</span>
+            <span class="badge">GMP</span>
+            <span class="badge">HACCP</span>
+            <span class="badge">Ph.D.</span>
+            <span class="badge">Post-Doc</span>
+            <span class="badge badge-gold">Epigenetics</span>
+            <span class="badge badge-gold">B2B</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div style="overflow:hidden;">
+    <div class="trust-scroll">
+      <span class="trust-item"><span class="trust-dot"></span>Nutraceutical Formulation</span>
+      <span class="trust-item"><span class="trust-dot"></span>FSSAI Compliance India</span>
+      <span class="trust-item"><span class="trust-dot"></span>Supplement Regulatory Consultant</span>
+      <span class="trust-item"><span class="trust-dot"></span>Ayurvedic Product Development</span>
+      <span class="trust-item"><span class="trust-dot"></span>Private Label Supplements</span>
+      <span class="trust-item"><span class="trust-dot"></span>Epigenetic Nutrition Science</span>
+      <span class="trust-item"><span class="trust-dot"></span>Protein Powder Formulation</span>
+      <span class="trust-item"><span class="trust-dot"></span>GMP Certified Manufacturing</span>
+      <span class="trust-item"><span class="trust-dot"></span>Supplement Startup Consultant</span>
+      <span class="trust-item"><span class="trust-dot"></span>Quality Control & Stability Testing</span>
+      <span class="trust-item"><span class="trust-dot"></span>FSSAI License Registration</span>
+      <!-- duplicate -->
+      <span class="trust-item"><span class="trust-dot"></span>Nutraceutical Formulation</span>
+      <span class="trust-item"><span class="trust-dot"></span>FSSAI Compliance India</span>
+      <span class="trust-item"><span class="trust-dot"></span>Supplement Regulatory Consultant</span>
+      <span class="trust-item"><span class="trust-dot"></span>Ayurvedic Product Development</span>
+      <span class="trust-item"><span class="trust-dot"></span>Private Label Supplements</span>
+      <span class="trust-item"><span class="trust-dot"></span>Epigenetic Nutrition Science</span>
+      <span class="trust-item"><span class="trust-dot"></span>Protein Powder Formulation</span>
+      <span class="trust-item"><span class="trust-dot"></span>GMP Certified Manufacturing</span>
+      <span class="trust-item"><span class="trust-dot"></span>Supplement Startup Consultant</span>
+      <span class="trust-item"><span class="trust-dot"></span>Quality Control & Stability Testing</span>
+      <span class="trust-item"><span class="trust-dot"></span>FSSAI License Registration</span>
+    </div>
+  </div>
+</div>
+
+<!-- THREE PILLARS -->
+<section id="pillars" class="section">
+  <div class="container">
+    <div class="reveal" style="text-align:center; max-width:640px; margin:0 auto 0;">
+      <span class="label">What We Do</span>
+      <h2 class="headline">Three Ways Pandey Epigen Lab<br>Serves You</h2>
+      <p class="body-text" style="margin:16px auto 0; text-align:center;">Whether you are a supplement startup, a brand with FSSAI questions, or a consumer wanting honest supplement knowledge — there is a door here for you.</p>
+    </div>
+    <div class="pillars-grid reveal">
+      <div class="pillar-card">
+        <div class="pillar-icon">⚗️</div>
+        <div class="pillar-title">Nutraceutical Formulation & B2B Consulting</div>
+        <div class="pillar-desc">End-to-end supplement formulation, raw material sourcing, clinical validation, manufacturing oversight, and market strategy for brands, startups, and manufacturers. From protein powders and BCAAs to Ayurvedic formulations and functional foods.</div>
+        <a href="#services" class="pillar-link">Explore Services →</a>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-icon">📋</div>
+        <div class="pillar-title">Regulatory Consulting & FSSAI Advisory</div>
+        <div class="pillar-desc">FSSAI license registration, product approval dossiers, GMP and HACCP compliance, label claims guidance, and a dedicated regulatory forum where brands and founders get real answers to real compliance questions.</div>
+        <a href="#regulatory" class="pillar-link">Get Regulatory Help →</a>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-icon">🧪</div>
+        <div class="pillar-title">Knowledge Base & Research Library</div>
+        <div class="pillar-desc">An evidence-first content library for founders, manufacturers, and consumers covering formulation science, regulatory updates, quality systems, and market realities in nutraceuticals.</div>
+        <a href="#insights" class="pillar-link">Open Knowledge Base →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-left reveal">
+        <span class="label">About</span>
+        <h2 class="headline">The Science Behind Every Supplement</h2>
+        <blockquote class="about-quote">
+          "Real nutraceutical consulting is not about selling you a formula. It is about making sure your product actually works — on the shelf, in the lab, and in the market."
+        </blockquote>
+        <p class="body-text">
+          India's nutraceutical market is growing at 20%+ annually. Most brands fail not because of bad intent — but bad science. Wrong actives, wrong delivery systems, wrong regulatory claims, wrong compliance. Pandey Epigen Lab exists to fix exactly that.
+        </p>
+        <div class="epigen-callout">
+          <div class="epigen-callout-title">🧬 Why "Epigen"? The Science Explained.</div>
+          <div class="epigen-callout-text">Epigenetics is the study of how food, herbs, and nutrients switch your genes on and off — without changing your DNA. Every Ayurvedic herb that survived 5,000 years works epigenetically. Modern science is just now proving what India always knew. Pandey Epigen Lab bridges that ancient wisdom with cutting-edge nutritional science — for supplements, functional foods, and health solutions that work at the cellular level.</div>
+        </div>
+      </div>
+      <div class="about-right reveal">
+        <p class="about-body">Dr. Pramod Pandey brings over a decade of research experience at the intersection of biochemistry, nutraceutical science, and industrial manufacturing. His work spans from biosensor development for early Alzheimer's detection in China, to designing nutrition-rich supplements for the Indian Defence sector, to leading plant operations and R&D at Fermentis Life Sciences, Gurugram.</p>
+        <p class="about-body">What sets this practice apart is the combination of academic rigour with field-level execution. Dr. Pandey has personally handled raw material sourcing, stability testing, FSSAI documentation, clinical validation, manufacturing supervision, and post-market feedback — not in theory, but on the factory floor.</p>
+        <p class="about-body">Today, Pandey Epigen Lab consults with supplement startups, established nutraceutical brands, Ayurvedic manufacturers, export-focused businesses, and consumers who deserve honest answers about the supplements they take every day.</p>
+        <div class="edu-block">
+          <span class="label">Education & Research</span>
+          <div class="edu-item">
+            <div class="edu-year">2018</div>
+            <div>
+              <div class="edu-detail-title">Post-Doctoral Fellowship — Photo-physics of Bio-Molecules</div>
+              <div class="edu-detail-inst">Dalian Institute of Chemical Physics, Chinese Academy of Sciences, Dalian, China</div>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-year">2016</div>
+            <div>
+              <div class="edu-detail-title">Ph.D. in Biochemistry</div>
+              <div class="edu-detail-inst">Kumaun University, Nainital, India</div>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-year">2008</div>
+            <div>
+              <div class="edu-detail-title">M.Sc. Organic Chemistry</div>
+              <div class="edu-detail-inst">Kumaun University, Nainital, India</div>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-year">2013</div>
+            <div>
+              <div class="edu-detail-title">Young Scientist Award</div>
+              <div class="edu-detail-inst">8th Uttarakhand State Science & Technology Congress, Doon University</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SERVICES -->
+<section id="services" class="section">
+  <div class="container">
+    <div class="services-intro">
+      <div class="reveal">
+        <span class="label">Services</span>
+        <h2 class="headline">10 Ways to Build a Better Supplement Brand</h2>
+      </div>
+      <div class="reveal">
+        <p class="body-text">Every service solves a specific, real problem nutraceutical brands face — from raw material fraud to failed regulatory submissions to products that lose potency within six months. No fluff. Only field-tested solutions.</p>
+        <p class="body-text" style="margin-top:12px;">Keywords we rank for: nutraceutical consultant India · supplement formulation expert · health supplement B2B · protein powder formulation · Ayurvedic product development · functional food consultant · private label supplement India</p>
+      </div>
+    </div>
+    <div class="services-grid reveal">
+      <div class="service-card">
+        <div class="service-number">01</div>
+        <div class="service-title">End-to-End Product Formulation</div>
+        <div class="service-desc">Science-backed formulations for nutraceuticals, health supplements, and Ayurvedic products. Concept to execution — including active delivery systems, bioavailability optimisation, and epigenetic nutrient profiling.</div>
+        <span class="service-tag">Formulation · R&D · Innovation · Epigenetics</span>
+      </div>
+      <div class="service-card">
+        <div class="service-number">02</div>
+        <div class="service-title">Raw Material Sourcing & Quality Assurance</div>
+        <div class="service-desc">Cost-efficient procurement of USP-grade, verified raw materials. Full quality assurance protocols to prevent adulteration, substandard actives, or overpriced supplier costs from reaching your product.</div>
+        <span class="service-tag">Sourcing · QA · Supply Chain</span>
+      </div>
+      <div class="service-card">
+        <div class="service-number">03</div>
+        <div class="service-title">Packaging & Stability Optimisation</div>
+        <div class="service-desc">Selection of packaging materials that protect product potency. Nitrogen-flushed packaging and advanced preservation techniques extending shelf life by up to 18 months — proven on live production lines.</div>
+        <span class="service-tag">Packaging · Shelf Life · Stability</span>
+      </div>
+      <div class="service-card">
+        <div class="service-number">04</div>
+        <div class="service-title">Clinical Trial Design & Implementation</div>
+        <div class="service-desc">End-to-end clinical trial support — planning, execution, and data analysis. Build legally defensible, evidence-based product claims that survive regulatory scrutiny in India and internationally.</div>
+        <span class="service-tag">Clinical · Evidence · Validation</span>
+      </div>
+      <div class="service-card">
+        <div class="service-number">05</div>
+        <div class="service-title">Regulatory Compliance — FSSAI, GMP, HACCP, FDA</div>
+        <div class="service-desc">Comprehensive documentation and compliance support for FSSAI product approval, GMP certification, HACCP implementation, and FDA registration. 100% approval track record. No rework, no delays, no surprises.</div>
+        <span class="service-tag">FSSAI · GMP · FDA · HACCP</span>
+      </div>
+      <div class="service-card">
+        <div class="service-number">06</div>
+        <div class="service-title">Manufacturing Process Oversight</div>
+        <div class="service-desc">Hands-on guidance during production to maintain batch-to-batch consistency, process efficiency, and quality compliance. Reduced Fermentis Life Sciences production cost by 12% without touching quality parameters.</div>
+        <span class="service-tag">Manufacturing · Process · QC</span>
+      </div>
+      <div class="service-card">
+        <div class="service-number">07</div>
+        <div class="service-title">Quality Control & Stability Testing</div>
+        <div class="service-desc">Analytical testing using HPLC, GC-MS, FTIR, HPTLC, UV-Vis spectroscopy. Verifying identity, potency, purity, and shelf-life of every batch — the same standards used for Indian Defence sector nutraceuticals.</div>
+        <span class="service-tag">QC · Analytical · Testing</span>
+      </div>
+      <div class="service-card">
+        <div class="service-number">08</div>
+        <div class="service-title">Business Development & Market Strategy</div>
+        <div class="service-desc">Market positioning, competitive analysis, and product differentiation for supplement brands targeting India and global markets. D2C, B2B, hospital procurement, export — strategy for every channel.</div>
+        <span class="service-tag">Strategy · Market · Growth</span>
+      </div>
+      <div class="service-card">
+        <div class="service-number">09</div>
+        <div class="service-title">Customer Support & Product Feedback Analysis</div>
+        <div class="service-desc">Scientific management of consumer queries, product complaints, and post-market feedback. Turn real-world consumer data into meaningful product improvements and brand loyalty.</div>
+        <span class="service-tag">Consumer · Feedback · Improvement</span>
+      </div>
+    </div>
+    <div style="margin-top:20px; text-align:center;" class="reveal">
+      <a href="#contact" class="btn btn-primary">Discuss Your Requirements</a>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- REGULATORY SECTION -->
+<section id="regulatory" class="section">
+  <div class="container">
+    <div class="reg-grid">
+      <div class="reg-intro reveal">
+        <span class="label">Regulatory Consulting</span>
+        <h2 class="headline">FSSAI. GMP. HACCP. FDA.<br>Done Right.</h2>
+        <p class="body-text">India's supplement regulatory landscape is complex, frequently updated, and widely misunderstood. Pandey Epigen Lab is your dedicated FSSAI and regulatory partner — from first license to export compliance.</p>
+        <p class="body-text" style="margin-top:14px;">Most compliance failures happen because brands copy-paste old documentation or rely on consultants who have never seen the inside of a manufacturing facility. We have. Every recommendation comes from lived, hands-on experience — not just guidelines.</p>
+        <div class="forum-cta">
+          <div class="forum-cta-title">🏛️ Join the Regulatory Forum</div>
+          <div class="forum-cta-text">Post your FSSAI question, compliance challenge, or licensing query. Get a science-based, honest answer — free, for the community. Building India's most useful nutraceutical regulatory knowledge base, one question at a time.</div>
+          <a href="#forum" class="btn btn-primary" style="font-size:11px; padding:11px 24px;">Visit the Forum →</a>
+        </div>
+      </div>
+      <div>
+        <div class="reg-cards reveal">
+          <div class="reg-card">
+            <div class="reg-card-icon">📜</div>
+            <div>
+              <div class="reg-card-title">FSSAI License & Product Registration</div>
+              <div class="reg-card-desc">Complete end-to-end FSSAI licensing support — basic, state, and central license registration. Product approval dossier preparation with 100% first-submission success rate.</div>
+            </div>
+          </div>
+          <div class="reg-card">
+            <div class="reg-card-icon">🏭</div>
+            <div>
+              <div class="reg-card-title">GMP Certification Preparation</div>
+              <div class="reg-card-desc">Factory audit readiness, documentation, SOP development, and process compliance for WHO-GMP and Schedule M certification across nutraceutical and supplement manufacturing facilities.</div>
+            </div>
+          </div>
+          <div class="reg-card">
+            <div class="reg-card-icon">🔐</div>
+            <div>
+              <div class="reg-card-title">HACCP System Implementation</div>
+              <div class="reg-card-desc">Hazard analysis, critical control point mapping, and full HACCP plan documentation for nutraceutical plants — tailored to your specific product line and manufacturing environment.</div>
+            </div>
+          </div>
+          <div class="reg-card">
+            <div class="reg-card-icon">🌍</div>
+            <div>
+              <div class="reg-card-title">Export Compliance — US, EU, Middle East</div>
+              <div class="reg-card-desc">International regulatory strategy for brands targeting US FDA, EU EFSA, Gulf region SFDA, and Southeast Asian markets. Labelling, claims, and dossier preparation for each jurisdiction.</div>
+            </div>
+          </div>
+          <div class="reg-card">
+            <div class="reg-card-icon">🌿</div>
+            <div>
+              <div class="reg-card-title">Ayurvedic Drug vs Nutraceutical Classification</div>
+              <div class="reg-card-desc">Confused about whether your product needs a FSSAI license or Ayush drug license? This is one of India's most common and costly compliance mistakes — get it right from the start.</div>
+            </div>
+          </div>
+          <div class="reg-card">
+            <div class="reg-card-icon">🏷️</div>
+            <div>
+              <div class="reg-card-title">Label Claims & Permissible Health Claims</div>
+              <div class="reg-card-desc">What you can legally say on your supplement label under FSSAI regulations — and what will get your product rejected or recalled. Claim language review and compliant copy writing.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Accordion -->
+        <div class="reg-faq reveal">
+          <span class="label" style="margin-bottom:20px;">Common Regulatory Questions</span>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              <span>Do I need a FSSAI license before I start formulating my supplement?</span>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-a">You need a FSSAI license before manufacturing or selling in India — not before formulating. However, your formulation design must be FSSAI-compliant from day one, or you will waste time and money reformulating later. Start compliance-aware, not compliance-reactive.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              <span>What is the difference between FSSAI State and Central license for supplements?</span>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-a">State license covers businesses with turnover up to ₹20 crore. Central license is required for manufacturers, importers, large-scale operators, and export businesses. Most supplement manufacturers need a Central license from day one — getting the wrong license wastes 3-6 months.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              <span>Can I call my product "Ayurvedic" and avoid FSSAI regulations?</span>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-a">Only if you register under AYUSH (Ministry of AYUSH) as an Ayurvedic drug. If your product is sold as a food supplement or health food — even with Ayurvedic ingredients — it falls under FSSAI. Misclassification is one of the top reasons supplement brands get shutdown in India.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              <span>How long does FSSAI product approval take in 2025?</span>
+              <span class="faq-icon">+</span>
+            </div>
+            <div class="faq-a">With a correctly prepared dossier, basic product approval typically takes 30-90 days. Novel foods or proprietary ingredients can take 6-12 months. Incomplete dossiers — the most common mistake — can add 3-6 months of back-and-forth. Our 100% first-submission approval rate is built on getting the dossier right the first time.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERTISE -->
+<section id="expertise" class="section" style="background:var(--surface);">
+  <div class="container">
+    <div class="exp-grid">
+      <div class="reveal">
+        <span class="label">Specialisations</span>
+        <h2 class="headline">Every Category.<br>One Expert.</h2>
+        <p class="body-text" style="margin:18px 0 32px;">Deep expertise across every major nutraceutical, supplement, and functional food category — from sports nutrition to clinical-grade Ayurvedic formulations.</p>
+        <ul class="exp-list">
+          <li>Custom Nutraceutical Formulation</li>
+          <li>Protein Powder & BCAA Development</li>
+          <li>Pre-Workout Supplement Design</li>
+          <li>Collagen & Skin Health Supplements</li>
+          <li>Capsule, Tablet, Powder & Liquid Forms</li>
+          <li>Ayurvedic Product Development</li>
+          <li>Herbal Extracts & Botanical Supplements</li>
+          <li>Functional Foods & Beverages</li>
+          <li>Immunity Booster Formulations</li>
+          <li>Liver Health Supplement Design</li>
+          <li>Gut Health — Probiotics, Prebiotics, Postbiotics</li>
+          <li>Epigenetic Nutrition Formulation</li>
+          <li>Innovative Delivery Systems</li>
+          <li>Private Label Nutraceuticals</li>
+          <li>Dietary Supplements</li>
+          <li>Clinical-Grade Supplement Development</li>
+          <li>Sleep & Cognitive Health Supplements</li>
+          <li>Sports Nutrition — Defence Grade Standards</li>
+        </ul>
+      </div>
+      <div class="exp-right reveal">
+        <div class="highlight-box">
+          <div class="hl-num">Ph.D.</div>
+          <div class="hl-label">Biochemistry + Post-Doctoral Research in Bio-Molecular Photo-Physics, Chinese Academy of Sciences. Applied daily to real product development — not academic theory alone.</div>
+        </div>
+        <div class="highlight-box" style="background: var(--accent-lt);">
+          <div class="hl-num">Defence</div>
+          <div class="hl-label">Formulated nutrition-rich nutraceuticals for the Indian Defence sector — the highest purity, efficacy, and safety standard demanded by any domestic industry.</div>
+        </div>
+        <div class="instruments-box">
+          <div class="ib-title">Analytical Instruments — Direct Hands-On Experience</div>
+          <div class="instrument-tags">
+            <span class="instrument-tag">HPLC</span>
+            <span class="instrument-tag">GC-MS</span>
+            <span class="instrument-tag">FTIR</span>
+            <span class="instrument-tag">HPTLC</span>
+            <span class="instrument-tag">UV-Vis</span>
+            <span class="instrument-tag">Fluorimeter</span>
+            <span class="instrument-tag">GC</span>
+            <span class="instrument-tag">MS</span>
+            <span class="instrument-tag">Polarimeter</span>
+            <span class="instrument-tag">Femtosecond Transient</span>
+            <span class="instrument-tag">Chem Draw</span>
+            <span class="instrument-tag">Gromacs</span>
+            <span class="instrument-tag">Autodoc</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- B2B -->
+<section id="b2b" class="section">
+  <div class="container">
+    <div class="b2b-grid">
+      <div class="reveal">
+        <span class="label" style="color:rgba(255,255,255,0.35);">B2B Platform</span>
+        <h2 class="headline" style="color:#fff;">One Consultant.<br>Your Entire<br>Supplement Business.</h2>
+        <p class="b2b-body">Whether you are launching India's next protein brand, scaling an Ayurvedic line for export, developing clinical supplements for hospitals, or building a private-label range with international compliance — Pandey Epigen Lab is the single point of contact that handles everything, honestly.</p>
+        <div style="display:flex; gap:14px; flex-wrap:wrap;">
+          <a href="#contact" class="btn btn-primary">Partner With Us</a>
+          <a href="#services" class="btn" style="background:rgba(255,255,255,0.08); color:#fff; border:1px solid rgba(255,255,255,0.15); font-size:12px; padding:13px 28px; letter-spacing:0.08em; text-transform:uppercase;">All Services →</a>
+        </div>
+      </div>
+      <div class="b2b-right reveal">
+        <div class="b2b-card">
+          <div class="b2b-card-icon">🏭</div>
+          <div class="b2b-card-title">Manufacturers</div>
+          <div class="b2b-card-desc">GMP compliance, process optimisation, and quality control for supplement manufacturers at any scale.</div>
+        </div>
+        <div class="b2b-card">
+          <div class="b2b-card-icon">🚀</div>
+          <div class="b2b-card-title">Startups</div>
+          <div class="b2b-card-desc">From formulation concept to first production run. No wasted money, no regulatory surprises, no bad science.</div>
+        </div>
+        <div class="b2b-card">
+          <div class="b2b-card-icon">🌿</div>
+          <div class="b2b-card-title">Ayurvedic Brands</div>
+          <div class="b2b-card-desc">Modernise traditional Ayurvedic formulations with epigenetic science and international compliance systems.</div>
+        </div>
+        <div class="b2b-card">
+          <div class="b2b-card-icon">📦</div>
+          <div class="b2b-card-title">Private Label</div>
+          <div class="b2b-card-desc">Full private-label nutraceutical development — custom formulas, branding-ready packaging, regulatory docs.</div>
+        </div>
+        <div class="b2b-card">
+          <div class="b2b-card-icon">🌍</div>
+          <div class="b2b-card-title">Export-Focused</div>
+          <div class="b2b-card-desc">International compliance for US, EU, Middle East, and Southeast Asian markets — label to dossier.</div>
+        </div>
+        <div class="b2b-card">
+          <div class="b2b-card-icon">🏥</div>
+          <div class="b2b-card-title">Clinical / Hospital</div>
+          <div class="b2b-card-desc">Clinical-grade supplement development for hospitals, healthcare chains, and pharma entering nutraceuticals.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KNOWLEDGE BASE -->
+<section id="insights" class="section">
+  <div class="container">
+    <div class="reveal">
+      <span class="label">Knowledge Base</span>
+      <div class="kus-header-bar">
+        <div class="kus-brand">
+          <div class="kus-logo">KB</div>
+          <div>
+            <div class="kus-name">Knowledge <span>Base</span></div>
+            <div class="kus-tagline">India's most honest supplement knowledge base</div>
+          </div>
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:10px;">
+          <span class="kus-domain">Independent Editorial</span>
+          <p style="font-size:11px; color:rgba(255,255,255,0.4); text-align:right; max-width:280px;">No sponsored content. No brand money. Only science, only honesty.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog-topics reveal">
+      <a href="#" class="topic-pill active" data-cat="all">All Topics</a>
+      <a href="#" class="topic-pill" data-cat="formulation">Formulation Science</a>
+      <a href="#" class="topic-pill" data-cat="regulatory">Regulatory & FSSAI</a>
+      <a href="#" class="topic-pill" data-cat="ayurveda">Ayurveda + Science</a>
+      <a href="#" class="topic-pill" data-cat="market">Market Trends</a>
+      <a href="#" class="topic-pill" data-cat="startup">Startup Guide</a>
+      <a href="#" class="topic-pill" data-cat="qc">Quality Control</a>
+      <a href="#" class="topic-pill" data-cat="b2b">B2B Strategy</a>
+      <a href="#" class="topic-pill" data-cat="clinical">Clinical Evidence</a>
+      <a href="#" class="topic-pill" data-cat="sports">Sports Nutrition</a>
+      <a href="#" class="topic-pill" data-cat="epigenetics">Epigenetics & Future</a>
+      <a href="#" class="topic-pill" data-cat="consumer">Consumer Guide</a>
+    </div>
+
+    <div class="blog-grid">
+      <a href="#" class="blog-card reveal">
+        <div class="blog-thumb" style="background: linear-gradient(135deg, #D8EDE3, #b7dccb);">
+          <span class="blog-thumb-icon">🧬</span>
+        </div>
+        <div class="blog-card-body">
+          <span class="blog-cat">Formulation Science</span>
+          <div class="blog-card-title">Why 80% of Indian Supplement Startups Fail at the Formulation Stage — and What to Do Instead</div>
+          <div class="blog-excerpt">The real problem is not money or marketing. It is choosing the wrong actives, wrong delivery system, or trusting raw material suppliers without independent verification.</div>
+          <div class="blog-meta"><span>Dr. Pramod Pandey</span><span>·</span><span>8 min read</span></div>
+        </div>
+      </a>
+      <a href="#" class="blog-card reveal">
+        <div class="blog-thumb" style="background: linear-gradient(135deg, #e8f0fe, #c8d8f8);">
+          <span class="blog-thumb-icon">📋</span>
+        </div>
+        <div class="blog-card-body">
+          <span class="blog-cat">Regulatory & FSSAI</span>
+          <div class="blog-card-title">FSSAI 2025 Compliance Checklist for Nutraceutical Brands</div>
+          <div class="blog-excerpt">Every document, every test, every claim FSSAI needs before you can legally sell your supplement in India.</div>
+          <div class="blog-meta"><span>Dr. Pramod Pandey</span><span>·</span><span>6 min read</span></div>
+        </div>
+      </a>
+      <a href="#" class="blog-card reveal">
+        <div class="blog-thumb" style="background: linear-gradient(135deg, #fef3e2, #f5d9a8);">
+          <span class="blog-thumb-icon">🌿</span>
+        </div>
+        <div class="blog-card-body">
+          <span class="blog-cat">Ayurveda + Epigenetics</span>
+          <div class="blog-card-title">Ashwagandha vs KSM-66 vs Sensoril: Which Extract Actually Works?</div>
+          <div class="blog-excerpt">A clinical evidence review of the three most-used Ashwagandha extracts — what science says about bioavailability, epigenetic effects, and efficacy.</div>
+          <div class="blog-meta"><span>Dr. Pramod Pandey</span><span>·</span><span>7 min read</span></div>
+        </div>
+      </a>
+    </div>
+
+    <!-- 50 Topics Table -->
+    <div class="topics-table reveal">
+      <span class="label">Full Blog Topic Library</span>
+      <h3 class="subhead" style="margin-bottom:28px;">50 Topics Every Nutraceutical Founder & Consumer Must Read</h3>
+      <div class="topics-cols">
+        <div class="topics-col-head">Formulation & Science</div>
+        <div class="topics-col-head reg">Regulation & Compliance</div>
+        <div class="topics-col-head biz">Business, Market & Consumer</div>
+
+        <div class="topic-row">1. Bioavailability 101: Why Most Supplements Do Nothing</div>
+        <div class="topic-row">18. FSSAI vs FDA: What Exporters Must Know in 2025</div>
+        <div class="topic-row no-border-right">35. How to Launch a Supplement Brand Under ₹25 Lakhs</div>
+
+        <div class="topic-row">2. Protein Powder: Whey vs Plant vs Casein — The Real Science</div>
+        <div class="topic-row">19. GMP Certification Step by Step for Indian Manufacturers</div>
+        <div class="topic-row no-border-right">36. Private Label Supplements: Complete Business Model Guide</div>
+
+        <div class="topic-row">3. The Truth About Proprietary Blends on Supplement Labels</div>
+        <div class="topic-row">20. HACCP Implementation for Nutraceutical Plants</div>
+        <div class="topic-row no-border-right">37. Nutraceutical Export from India: Opportunities & Pitfalls</div>
+
+        <div class="topic-row">4. Collagen: Type I vs II vs III vs Marine — What You Actually Need</div>
+        <div class="topic-row">21. Label Claims That Will Get Your Product Rejected by FSSAI</div>
+        <div class="topic-row no-border-right">38. Competitive Analysis in the Indian Supplement Market 2025</div>
+
+        <div class="topic-row">5. BCAA Ratios — 2:1:1 vs 4:1:1: The Science Explained</div>
+        <div class="topic-row">22. How to Prepare a FSSAI Product Approval Dossier</div>
+        <div class="topic-row no-border-right">39. D2C vs B2B Supplement Business: Honest Comparison</div>
+
+        <div class="topic-row">6. Nitrogen Flushing: The Under-Used Tool for Supplement Shelf Life</div>
+        <div class="topic-row">23. Adulterants in Indian Supplement Raw Materials — Red Flags</div>
+        <div class="topic-row no-border-right">40. Ingredient Sourcing Networks in India: What to Know</div>
+
+        <div class="topic-row">7. KSM-66 vs Sensoril vs Raw Ashwagandha: Epigenetic Evidence</div>
+        <div class="topic-row">24. Stability Testing Protocol for Nutraceuticals India</div>
+        <div class="topic-row no-border-right">41. How Supplement Startups Should Find a Manufacturer</div>
+
+        <div class="topic-row">8. Liposomal vs Standard Vitamin C: Is the Price Worth It?</div>
+        <div class="topic-row">25. Clinical Trials for Supplement Claims: The Real Process</div>
+        <div class="topic-row no-border-right">42. Functional Foods — The Fastest Growing Nutraceutical Segment</div>
+
+        <div class="topic-row">9. Gut Health Supplements: Probiotics, Prebiotics, Postbiotics Explained</div>
+        <div class="topic-row">26. Understanding Schedule H vs OTC Supplement Classification</div>
+        <div class="topic-row no-border-right">43. How to Price Your Supplement Product Correctly</div>
+
+        <div class="topic-row">10. Mushroom Extracts: Reishi, Lion's Mane, Cordyceps — Real Evidence</div>
+        <div class="topic-row">27. Ayurvedic Drug vs Nutraceutical: Which License Do You Need?</div>
+        <div class="topic-row no-border-right">44. Global Nutraceutical Market Trends 2025–2030</div>
+
+        <div class="topic-row">11. Omega-3 Quality: EPA vs DHA, Oxidation, Bioavailability</div>
+        <div class="topic-row">28. FSSAI Health Claims: What You Can and Cannot Say</div>
+        <div class="topic-row no-border-right">45. Why India Will Lead the Global Nutraceutical Market by 2030</div>
+
+        <div class="topic-row">12. Curcumin: BCM-95 vs Meriva vs Piperine — Which Absorbs Best?</div>
+        <div class="topic-row">29. QA vs QC in Supplement Manufacturing — What's the Difference?</div>
+        <div class="topic-row no-border-right">46. Supplement Brand Differentiation: Beyond the Label</div>
+
+        <div class="topic-row">13. Magnesium: Glycinate vs Oxide vs Citrate — Real Talk</div>
+        <div class="topic-row">30. HPLC Testing for Supplement Manufacturers: Basics Explained</div>
+        <div class="topic-row no-border-right">47. Hospital & Clinical Nutraceutical Procurement: B2B Guide</div>
+
+        <div class="topic-row">14. Epigenetics & Nutrition: How Food Switches Your Genes On and Off</div>
+        <div class="topic-row">31. Certificate of Analysis (COA) Reading Guide for Brands</div>
+        <div class="topic-row no-border-right">48. Supplement Business Financial Modelling for Startups</div>
+
+        <div class="topic-row">15. Pre-Workout Science: What Works, What Is Hype, What Is Dangerous</div>
+        <div class="topic-row">32. Banned Substances in Sports Nutrition — India Compliance</div>
+        <div class="topic-row no-border-right">49. Digital Marketing for Nutraceutical Brands in India</div>
+
+        <div class="topic-row">16. Liver Health Supplements: NAFLD, Silymarin, TUDCA Explained</div>
+        <div class="topic-row">33. GMP Audit Preparation: A Practical Checklist</div>
+        <div class="topic-row no-border-right">50. Investor Pitch Deck for a Supplement Brand — What Matters</div>
+
+        <div class="topic-row last">17. Sleep Supplements: Melatonin, Ashwagandha, L-Theanine Evidence Review</div>
+        <div class="topic-row last">34. Third-Party Testing: Why It Matters and How to Choose a Lab</div>
+        <div class="topic-row no-border-right last">+ New topics added weekly</div>
+      </div>
+      <div style="text-align:center; margin-top:28px;">
+        <a href="#contact" class="btn btn-primary">Request Full Articles List →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REGULATORY FORUM -->
+<section id="forum" class="section" style="background:var(--surface);">
+  <div class="container">
+    <div class="forum-grid">
+      <div class="reveal">
+        <span class="label">Regulatory Forum</span>
+        <h2 class="headline">India's Nutraceutical<br>Regulatory Q&A Forum</h2>
+        <p class="body-text" style="margin:16px 0 20px;">Ask any FSSAI, GMP, HACCP, or supplement compliance question. Get a science-based, honest answer from Dr. Pramod Pandey and the Pandey Epigen Lab community. Free. Open. No selling.</p>
+        <p class="body-text" style="margin-bottom:28px;">This forum is being built as India's most useful regulatory knowledge base for supplement brands, manufacturers, Ayurvedic companies, and startup founders who cannot afford expensive legal missteps.</p>
+        <div class="forum-tags">
+          <span class="forum-tag">FSSAI Registration</span>
+          <span class="forum-tag">Product Approval</span>
+          <span class="forum-tag">GMP Audit</span>
+          <span class="forum-tag">HACCP</span>
+          <span class="forum-tag">Label Claims</span>
+          <span class="forum-tag">Ayush vs FSSAI</span>
+          <span class="forum-tag">Novel Foods</span>
+          <span class="forum-tag">Export Compliance</span>
+          <span class="forum-tag">FDA Registration</span>
+          <span class="forum-tag">Schedule H</span>
+          <span class="forum-tag">Banned Ingredients</span>
+          <span class="forum-tag">COA Verification</span>
+        </div>
+        <div style="margin-top:28px;">
+          <a href="#contact" class="btn btn-primary">Post Your Question →</a>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="forum-cta-big">
+          <div class="fct-title">Have a Regulatory Question? Ask It Here.</div>
+          <div class="fct-text">This is a free, community-first regulatory knowledge base. Whether you are confused about FSSAI licensing categories, need help reading a compliance notice, or want to know if your ingredient is permitted — post your question and get a real, expert answer.</div>
+          <a href="#contact" class="btn" style="background:#fff; color:var(--accent); font-size:11px; padding:12px 28px; letter-spacing:0.09em; text-transform:uppercase; display:inline-block; border-radius:4px; font-weight:500;">Submit Your FSSAI Query</a>
+        </div>
+        <div class="forum-threads">
+          <div class="forum-thread">
+            <span class="forum-thread-cat">FSSAI</span>
+            <div>
+              <div class="forum-thread-q">Can I sell protein powder as a food supplement without a central FSSAI license?</div>
+              <div class="forum-thread-meta">Answered · 3 replies · Formulation Startup</div>
+            </div>
+          </div>
+          <div class="forum-thread">
+            <span class="forum-thread-cat reg">Ayush</span>
+            <div>
+              <div class="forum-thread-q">My product has Ashwagandha — do I need FSSAI or Ayush license?</div>
+              <div class="forum-thread-meta">Answered · 7 replies · Ayurvedic Brand</div>
+            </div>
+          </div>
+          <div class="forum-thread">
+            <span class="forum-thread-cat sci">GMP</span>
+            <div>
+              <div class="forum-thread-q">What are the most common reasons for GMP audit failure in India?</div>
+              <div class="forum-thread-meta">Answered · 5 replies · Manufacturer</div>
+            </div>
+          </div>
+          <div class="forum-thread">
+            <span class="forum-thread-cat">FSSAI</span>
+            <div>
+              <div class="forum-thread-q">Can I make "boosts immunity" claim on my supplement label?</div>
+              <div class="forum-thread-meta">Answered · 4 replies · D2C Brand Founder</div>
+            </div>
+          </div>
+          <div class="forum-thread">
+            <span class="forum-thread-cat reg">Export</span>
+            <div>
+              <div class="forum-thread-q">What certifications do I need to export supplements to the UAE?</div>
+              <div class="forum-thread-meta">Answered · 6 replies · Export Business</div>
+            </div>
+          </div>
+          <div class="forum-thread" style="border-bottom:none;">
+            <span class="forum-thread-cat sci">Ingredients</span>
+            <div>
+              <div class="forum-thread-q">Is NMN (Nicotinamide Mononucleotide) permitted as a supplement ingredient in India?</div>
+              <div class="forum-thread-meta">Open · 2 replies · Longevity Brand</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" class="section">
+  <div class="container">
+    <div class="reveal" style="text-align:center; max-width:520px; margin:0 auto;">
+      <span class="label">How It Works</span>
+      <h2 class="headline">From First Call to Market Launch</h2>
+    </div>
+    <div class="process-steps reveal">
+      <div class="process-step">
+        <div class="step-circle">01</div>
+        <div class="step-title">Discovery Call</div>
+        <div class="step-desc">Understand your product vision, target market, regulatory needs, and budget.</div>
+      </div>
+      <div class="process-step">
+        <div class="step-circle">02</div>
+        <div class="step-title">Formulation Design</div>
+        <div class="step-desc">Science-backed formula with optimal actives, dosage, delivery system, and epigenetic nutrition logic.</div>
+      </div>
+      <div class="process-step">
+        <div class="step-circle">03</div>
+        <div class="step-title">Sourcing & Testing</div>
+        <div class="step-desc">Verified raw material procurement and rigorous analytical quality testing — HPLC, GC-MS, FTIR.</div>
+      </div>
+      <div class="process-step">
+        <div class="step-circle">04</div>
+        <div class="step-title">Compliance & Docs</div>
+        <div class="step-desc">Full regulatory documentation for FSSAI, GMP, HACCP, or FDA. First-submission approval guaranteed.</div>
+      </div>
+      <div class="process-step">
+        <div class="step-circle">05</div>
+        <div class="step-title">Launch & Scale</div>
+        <div class="step-desc">Manufacturing oversight, market strategy, and post-launch feedback management.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="section-sm">
+  <div class="container">
+    <div class="reveal" style="text-align:center;">
+      <span class="label">Outcomes</span>
+      <h2 class="headline">Results That Speak</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-quote">"The formulation work done for our defence nutrition line was exceptional — rigorous, compliant, and genuinely effective. FSSAI approval came on the first submission."</div>
+        <div class="testi-author">Senior Purchase Officer</div>
+        <div class="testi-role">Indian Defence Sector — Nutrition Programme</div>
+      </div>
+      <div class="testi-card reveal reveal-delay-1">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-quote">"Dr. Pandey reduced our production costs by 12% without compromising a single quality parameter. His process optimisation work paid for itself in two batches."</div>
+        <div class="testi-author">Operations Director</div>
+        <div class="testi-role">Supplement Manufacturer, Gurugram</div>
+      </div>
+      <div class="testi-card reveal reveal-delay-2">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-quote">"We extended shelf life by 18 months using the nitrogen-flushed packaging method he recommended. The science behind it is solid and implementation was seamless."</div>
+        <div class="testi-author">Founder</div>
+        <div class="testi-role">Health Supplement Startup, Delhi</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section" style="background:var(--surface);">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="reveal">
+        <span class="label">Contact</span>
+        <h2 class="headline">Let's Build Something Real</h2>
+        <p class="body-text" style="margin:18px 0 0;">Reach out for a no-fluff consultation. Supplement startup, FSSAI compliance issue, manufacturing challenge, regulatory forum question, or a consumer wanting honest supplement advice — start here.</p>
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">📱</div>
+            <div>
+              <div class="contact-label">Mobile / WhatsApp</div>
+              <div class="contact-value"><a href="tel:+919897938747">+91 98979 38747</a></div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <div class="contact-label">Email — Primary</div>
+              <div class="contact-value"><a href="mailto:drpplabs@gmail.com">drpplabs@gmail.com</a></div>
+              <div class="contact-label" style="margin-top:8px;">Email — Research</div>
+              <div class="contact-value"><a href="mailto:pp.chem24@gmail.com">pp.chem24@gmail.com</a></div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">💼</div>
+            <div>
+              <div class="contact-label">LinkedIn</div>
+              <div class="contact-value"><a href="https://www.linkedin.com/in/pramod-pandey-351bab68/" target="_blank">linkedin.com/in/pramod-pandey-351bab68</a></div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <div class="contact-label">Based In</div>
+              <div class="contact-value">Delhi (NCR), India — Serving Clients Globally</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Full Name *</label>
+              <input type="text" placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label>Company / Brand</label>
+              <input type="text" placeholder="Company name">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Email *</label>
+              <input type="email" placeholder="your@email.com">
+            </div>
+            <div class="form-group">
+              <label>Phone / WhatsApp</label>
+              <input type="tel" placeholder="+91 XXXXX XXXXX">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Enquiry Type *</label>
+            <select>
+              <option value="">Select enquiry type...</option>
+              <optgroup label="── B2B Consulting ──">
+                <option>Product Formulation — New Supplement</option>
+                <option>Protein / BCAA / Pre-Workout Formulation</option>
+                <option>Ayurvedic Product Development</option>
+                <option>Private Label Nutraceutical</option>
+                <option>Raw Material Sourcing & QA</option>
+                <option>Clinical Trial Design</option>
+                <option>Manufacturing Oversight</option>
+                <option>Quality Control & Stability Testing</option>
+                <option>Business & Market Strategy</option>
+                <option>Complete End-to-End Project</option>
+              </optgroup>
+              <optgroup label="── Regulatory Consulting ──">
+                <option>FSSAI License Registration</option>
+                <option>FSSAI Product Approval Dossier</option>
+                <option>GMP Certification Preparation</option>
+                <option>HACCP Implementation</option>
+                <option>Export Compliance — US / EU / UAE</option>
+                <option>Label Claims & Regulatory Review</option>
+                <option>Ayush vs FSSAI Classification Help</option>
+              </optgroup>
+              <optgroup label="── General ──">
+                <option>Regulatory Forum Question</option>
+                <option>Consumer Supplement Query</option>
+                <option>Research Collaboration</option>
+                <option>Other</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Tell Me About Your Project / Query *</label>
+            <textarea placeholder="Describe your product idea, current challenges, regulatory stage, or question. The more detail you give, the better the response you will get..."></textarea>
+          </div>
+          <button class="btn btn-primary" style="width:100%; padding:15px; font-size:12px; letter-spacing:0.1em;" onclick="handleFormSubmit()">
+            Send Enquiry → Pandey Epigen Lab
+          </button>
+          <p style="font-size:10px; color:var(--ink-muted); text-align:center; margin-top:4px;">Response within 24 hours · All enquiries strictly confidential · No spam ever</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">Epigene Lab <span>by Dr. Pandey</span></div>
+        <div class="footer-sub">Dr. Pramod Pandey · Ph.D. Biochemistry</div>
+        <p class="footer-tagline">India's independent nutraceutical consultancy — formulation, FSSAI regulatory compliance, epigenetic nutrition science, and business strategy for supplement brands that want to do it right.</p>
+      </div>
+      <div>
+        <div class="footer-col-title">Services</div>
+        <ul class="footer-links">
+          <li><a href="#services">Product Formulation</a></li>
+          <li><a href="#services">Regulatory Compliance</a></li>
+          <li><a href="#services">Raw Material Sourcing</a></li>
+          <li><a href="#services">Clinical Trial Design</a></li>
+          <li><a href="#services">Manufacturing Oversight</a></li>
+          <li><a href="#b2b">B2B Consulting</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Regulatory</div>
+        <ul class="footer-links">
+          <li><a href="#regulatory">FSSAI License Help</a></li>
+          <li><a href="#regulatory">GMP Certification</a></li>
+          <li><a href="#regulatory">HACCP Implementation</a></li>
+          <li><a href="#regulatory">Export Compliance</a></li>
+          <li><a href="#forum">Regulatory Forum</a></li>
+          <li><a href="#regulatory">Label Claims Advice</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Connect</div>
+        <ul class="footer-links">
+          <li><a href="tel:+919897938747">+91 98979 38747</a></li>
+          <li><a href="mailto:drpplabs@gmail.com">drpplabs@gmail.com (Primary)</a></li>
+          <li><a href="mailto:pp.chem24@gmail.com">pp.chem24@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/pramod-pandey-351bab68/" target="_blank">LinkedIn</a></li>
+          <li><a href="#contact">Book a Consultation</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Epigene Lab by Dr. Pandey · Nutraceutical Consultant, Delhi NCR, India</span>
+      <span>FSSAI · GMP · HACCP · Ph.D. Biochemistry · Post-Doc CAS China</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// ── SCROLL REVEAL ──
+const revealEls = document.querySelectorAll('.reveal');
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.07, rootMargin: '0px 0px -40px 0px' });
+revealEls.forEach(el => revealObserver.observe(el));
+
+// ── MOBILE MENU ──
+const mobileMenu = document.getElementById('mobile-menu');
+const hamburger  = document.querySelector('.hamburger');
+let menuOpen = false;
+
+function toggleMenu() {
+  menuOpen = !menuOpen;
+  mobileMenu.classList.toggle('open', menuOpen);
+  // Animate hamburger to X
+  const spans = hamburger.querySelectorAll('span');
+  if (menuOpen) {
+    spans[0].style.transform = 'rotate(45deg) translate(4px, 4px)';
+    spans[1].style.opacity   = '0';
+    spans[2].style.transform = 'rotate(-45deg) translate(4px, -4px)';
+  } else {
+    spans[0].style.transform = '';
+    spans[1].style.opacity   = '';
+    spans[2].style.transform = '';
+  }
+}
+
+function closeMenu() {
+  menuOpen = false;
+  mobileMenu.classList.remove('open');
+  const spans = hamburger.querySelectorAll('span');
+  spans[0].style.transform = '';
+  spans[1].style.opacity   = '';
+  spans[2].style.transform = '';
+}
+
+// Close menu on scroll (mobile UX best practice)
+window.addEventListener('scroll', () => { if (menuOpen) closeMenu(); }, { passive: true });
+
+// Close menu when clicking outside
+document.addEventListener('click', (e) => {
+  if (menuOpen && !mobileMenu.contains(e.target) && !hamburger.contains(e.target)) closeMenu();
+});
+
+// ── TOPIC PILLS ──
+document.querySelectorAll('.topic-pill').forEach(pill => {
+  pill.addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelectorAll('.topic-pill').forEach(p => p.classList.remove('active'));
+    this.classList.add('active');
+  });
+});
+
+// ── FAQ ACCORDION ──
+function toggleFaq(el) {
+  const item   = el.closest('.faq-item');
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+  if (!isOpen) item.classList.add('open');
+}
+
+// ── CONTACT FORM ──
+function handleFormSubmit() {
+  alert('Thank you for reaching out to Pandey Epigen Lab.\n\nDr. Pramod Pandey will respond within 24 hours.\n\nPrimary Email: drpplabs@gmail.com\nResearch: pp.chem24@gmail.com\nWhatsApp: +91 98979 38747');
+}
+
+// ── NAV ACTIVE LINK ON SCROLL ──
+const sections  = document.querySelectorAll('section[id]');
+const navLinks  = document.querySelectorAll('.nav-links a');
+
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(s => {
+    if (window.scrollY >= s.offsetTop - 100) current = s.getAttribute('id');
+  });
+  navLinks.forEach(link => {
+    link.style.color = link.getAttribute('href') === '#' + current ? 'var(--accent)' : '';
+  });
+}, { passive: true });
+
+// ── iOS SAFE AREA FIX for dynamic viewport height ──
+function setViewportHeight() {
+  const vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+setViewportHeight();
+window.addEventListener('resize', setViewportHeight, { passive: true });
+
+// ── SMOOTH SCROLL FIX for iOS Safari ──
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      const navHeight = document.querySelector('nav').offsetHeight;
+      const top = target.getBoundingClientRect().top + window.pageYOffset - navHeight;
+      window.scrollTo({ top, behavior: 'smooth' });
+      if (menuOpen) closeMenu();
+    }
+  });
+});
+</script>
+
+</body>
+</html>
